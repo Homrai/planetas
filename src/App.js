@@ -28,7 +28,7 @@ const App = () => {
   
       </div>
       <div className='mensaje mt-10 border-8 border-double p-7 bg-black border-blue-900 flex flex-row'>
-        <img src={informacionPlaneta.planeta} alt='Img Planeta' className='rounded-full my-auto planetaImg' />
+        <img src={informacionPlaneta.planeta} alt='Img Planeta' className='rounded-full hover:scale-125 my-auto planetaImg' />
         <div className='p-7 overflow-scroll whitespace-pre-wrap text-white text-justify'>
             {informacionPlaneta.texto}
         </div>
