@@ -13,7 +13,7 @@
 .header{
     background-image: url("./images/1.jpg");
     background-size: cover;
-    max-height: 800px;
+    max-height: 500px;
     height: 800px;
     background-repeat: no-repeat;
     width: 100%;
@@ -21,8 +21,28 @@
     /* animation: bg-animation-translate 7s infinite normal; */
     animation: bg-animation 28s infinite normal;
 }
-.navbar1{
-    width: 100%;
+.contenedor{
+  height: 500px;
+  overflow: hidden;
+}
+
+.menu{
+  position: sticky;
+  top: 36px;
+}
+
+.mensaje{
+  width: 90%;
+  margin-inline: 5%;
+  height: 500px;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  position: absolute;
+}
+
+.planetaImg{
+  width: 30%;
+  height: 80%;
 }
 
 @media (max-width:1200px) {
